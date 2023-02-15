@@ -1,0 +1,12 @@
+.card {
+    min-width: 180px ;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.action-holder {
+    display: flex;
+    justify-content: space-between;
+}

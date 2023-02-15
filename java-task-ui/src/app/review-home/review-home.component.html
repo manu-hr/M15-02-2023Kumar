@@ -1,0 +1,6 @@
+
+<div *ngIf="reviews.length > 0" class="container">
+    <div  class="insideContainer">
+        <app-review-card *ngFor="let review of reviews " [review]="review" (deleteReviewId)="deleteReview($event)"></app-review-card>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.container {
+    width: fit-content;
+    max-width: 80vw;
+    padding: 1em;
+    margin : 1em auto;
+    background-color:#CAD5E2;
+}
+
+.insideContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}

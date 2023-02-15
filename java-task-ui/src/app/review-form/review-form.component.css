@@ -1,0 +1,15 @@
+.container {
+    width: fit-content;
+    padding: 1em;
+    margin : 2em auto;
+    background-color:#CAD5E2;
+    text-align: center;
+}
+
+#header {
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}

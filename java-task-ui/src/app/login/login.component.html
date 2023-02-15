@@ -1,0 +1,16 @@
+<div class="container">
+    <div style="background-color: white; padding: 1em;">
+        <p id="header"> Login</p>
+        <mat-form-field appearance="outline">
+          <mat-label>User Name</mat-label>
+          <input matInput placeholder="abc@gmail.com" [(ngModel)]="username">
+          <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field> <br>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput placeholder="" [(ngModel)]="password">
+          <mat-icon matSuffix>lock</mat-icon>
+        </mat-form-field> <br>
+        <button mat-raised-button color="primary" (click)="submit()">Submit</button>
+      </div>
+</div>
